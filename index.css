@@ -18,16 +18,21 @@ body{
 	background-color: rgba(54,52,52,0.15);
 }
 
-.h {
-	text-align: center;
-}
-
 a{
 	color:#26FF16;
 }
 
 a:hover{
 	color: rgba(54,85,52,0.75)
+}
+
+.noa {
+	color: lime;
+	text-decoration: none;
+}
+
+.noa:hover {
+	color: lime;
 }
 
 .links {
@@ -60,8 +65,8 @@ input {
 }
 
 #projects {
-	list-style:none;
 	display: flex;
+	flex-flow: row wrap;
 	margin-left:0;
 	padding-left: 0;
 	left:0;
@@ -70,37 +75,53 @@ input {
 
 .project {
 	border-radius: 1rem;
-	min-height: 18rem;
+	min-height: 10rem;
 	width: 25rem;
-	border: 1px solid #3D3D3D;
+	display: inline-block;
+	border: 0.12rem solid #3D3D3D;
+	padding: 0.5rem;
 	margin-bottom: 1rem;
 	margin-right: 1rem;
 	margin-left: 1rem;
 }
 
-li:hover {
+.project:hover {
 	transition-duration: 0.5s;
 	background-color: #3C3C3C;
 	cursor: pointer;
 }
 
-.ptitle {
+.ptitle { 
+	text-decoration: underline;
 	margin-top: 1rem;
-	text-align: center;
 	font-size: 25px;
 }
 
 .pdesc {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	text-align: center;
 	font-size: 25px;
 }
 
 .hft {
-	color:#A2E4AB;
+	color: #ffffff;
 }
 
 div.p {
 	font-size: 25px;
+}
+
+.center {
+	text-align: center;
+	align-content: center;
+}
+
+.icons {
+	width: 3rem;
+	height: 3rem;
+	margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+#links {
+	margin: 1rem 0rem 3.5rem 0rem;
 }
