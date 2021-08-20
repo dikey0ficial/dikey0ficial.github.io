@@ -1,0 +1,106 @@
+@font-face {
+	font-family: Comfortaa;
+	src: url(fonts/comfortaa.ttf);
+}
+
+@font-face {
+	font-family: Andika;
+	src: url(fonts/andika.ttf);
+}
+
+body{
+	font-family: Comfortaa;
+	background-color: black;
+	color: lime;
+}
+
+.h:hover{
+	background-color: rgba(54,52,52,0.15);
+}
+
+.h {
+	text-align: center;
+}
+
+a{
+	color:#26FF16;
+}
+
+a:hover{
+	color: rgba(54,85,52,0.75)
+}
+
+.links {
+	magrin: 30px auto;
+	text-align: center;
+}
+
+input {
+	  text-align: center;
+      display: inline-block;
+      margin: 20px auto;
+      border: 2px solid #eee;
+      padding: 10px 20px;
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 16px;
+      color: black;
+    }
+
+   
+.tdItem {
+  text-align: left;
+  padding: 10px;
+  cursor: default;
+  border-radius: 7px;
+}
+
+
+.tdItem:hover {
+  background-color: rgba(54,52,52,0.15);
+}
+
+#projects {
+	list-style:none;
+	display: flex;
+	margin-left:0;
+	padding-left: 0;
+	left:0;
+	right: 0;
+}
+
+.project {
+	border-radius: 1rem;
+	min-height: 18rem;
+	width: 25rem;
+	border: 1px solid #3D3D3D;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+li:hover {
+	transition-duration: 0.5s;
+	background-color: #3C3C3C;
+	cursor: pointer;
+}
+
+.ptitle {
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 25px;
+}
+
+.pdesc {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 25px;
+}
+
+.hft {
+	color:#A2E4AB;
+}
+
+div.p {
+	font-size: 25px;
+}
