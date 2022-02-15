@@ -1,127 +1,60 @@
-@font-face {
-	font-family: Comfortaa;
-	src: url(fonts/comfortaa.ttf);
-}
-
-@font-face {
-	font-family: Andika;
-	src: url(fonts/andika.ttf);
-}
-
-body{
-	font-family: Comfortaa;
-	background-color: black;
-	color: lime;
-}
-
-.h:hover{
-	background-color: rgba(54,52,52,0.15);
-}
-
-a{
-	color:#26FF16;
-}
-
-a:hover{
-	color: rgba(54,85,52,0.75)
-}
-
-.noa {
-	color: lime;
-	text-decoration: none;
-}
-
-.noa:hover {
-	color: lime;
-}
-
-.links {
-	magrin: 30px auto;
-	text-align: center;
-}
-
-input {
-	  text-align: center;
-      display: inline-block;
-      margin: 20px auto;
-      border: 2px solid #eee;
-      padding: 10px 20px;
-      font-family: Verdana, Arial, sans-serif;
-      font-size: 16px;
-      color: black;
-    }
-
-   
-.tdItem {
-  text-align: left;
-  padding: 10px;
-  cursor: default;
-  border-radius: 7px;
-}
-
-
-.tdItem:hover {
-  background-color: rgba(54,52,52,0.15);
-}
-
-#projects {
+body {
+	background-color:  #0A000A;
+	padding: 1%;
+	font-family: Ubuntu Mono Ubuntu Medium, Arial, serif;
 	display: flex;
-	flex-flow: row wrap;
-	margin-left:0;
-	padding-left: 0;
-	left:0;
-	right: 0;
+	flex-direction: column;
+	min-height: 100%;
 }
 
-.project {
-	border-radius: 1rem;
-	min-height: 10rem;
-	width: 25rem;
-	display: inline-block;
-	border: 0.12rem solid #3D3D3D;
-	padding: 0.5rem;
-	margin-bottom: 1rem;
-	margin-right: 1rem;
-	margin-left: 1rem;
+a {
+	transition-duration: 50ms;
+	background-color: rgba(0,0,0,0);
+	color: #00FA00;
+	padding: 0;
+	border-radius: 5px;
 }
 
-.project:hover {
-	transition-duration: 0.5s;
-	background-color: #3C3C3C;
-	cursor: pointer;
+a:not(.icon_a):hover {
+	padding: 5px;
+	background-color: #332533FF;
+	color: #00DA00;
 }
 
-.ptitle { 
-	text-decoration: underline;
-	margin-top: 1rem;
-	font-size: 25px;
+content {
+	flex: 1 0 auto;
 }
 
-.pdesc {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	font-size: 25px;
-}
-
-.hft {
-	color: #ffffff;
-}
-
-div.p {
-	font-size: 25px;
+footer {
+	margin:  0;
+	padding: 0
+	flex: 0 0 auto;
 }
 
 .center {
 	text-align: center;
-	align-content: center;
 }
 
-.icons {
-	width: 3rem;
-	height: 3rem;
-	margin: 0rem 0.5rem 0rem 0.5rem;
+.icon {
+	width: 5rem;
+	height: 5rem;
+	transition-duration: 100ms;
+	padding: 5px;
+	border-radius: 7.5px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: #FFFFFF;
+}
+
+.icon:hover {
+	transition-duration: 100ms;
+	background-color: #DDFFDD;
 }
 
 #links {
-	margin: 1rem 0rem 3.5rem 0rem;
+	padding: 0.5%;
+	max-height: 7.5%;
+	min-height: 7.5%;
+	height: 7.5%;
+	position: sticky;
 }
