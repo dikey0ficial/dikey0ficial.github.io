@@ -1,10 +1,11 @@
 body {
 	background-color:  #0A000A;
-	padding: 1%;
+	padding: 0.5%;
 	font-family: Ubuntu Mono Ubuntu Medium, Arial, serif;
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
+	color: #ffffff;
 }
 
 a {
@@ -31,19 +32,29 @@ footer {
 	flex: 0 0 auto;
 }
 
+details summary {
+	margin-bottom: 1vmin;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+
 .center {
+	left: 0;
+	right: 0;
 	text-align: center;
 }
 
 .icon {
-	width: 5rem;
-	height: 5rem;
 	transition-duration: 100ms;
+	width: 7vmax;
+	height: 7vmax;
 	padding: 5px;
-	border-radius: 7.5px;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin: 5px;
 	background-color: #FFFFFF;
+	border-radius: 7.5px;
 }
 
 .icon:hover {
@@ -52,9 +63,17 @@ footer {
 }
 
 #links {
+	transition-duration: 100ms;
+	width: 75%;
+	border-radius: 7.5px;
+	margin-bottom: 2vmin;
 	padding: 0.5%;
 	max-height: 7.5%;
 	min-height: 7.5%;
 	height: 7.5%;
 	position: sticky;
+}
+
+#links:hover {
+	background-color: #30303077;
 }
