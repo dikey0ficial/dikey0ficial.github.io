@@ -1,79 +1,28 @@
-body {
-	background-color:  #0A000A;
-	padding: 0.5%;
-	font-family: Ubuntu Mono Ubuntu Medium, Arial, serif;
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	color: #ffffff;
+:root {
+	font-family: Noto Sans, sans-serif;
+	font-size: 20px;
+	
+	background-color: #f0f0f0;
 }
 
-a {
-	transition-duration: 50ms;
-	background-color: rgba(0,0,0,0);
-	color: #00FA00;
-	padding: 0;
-	border-radius: 5px;
+h1, h2, h3, h4, h5, h6 {
+	color: #c77b00;
 }
 
-a:not(.icon_a):hover {
-	padding: 5px;
-	background-color: #332533FF;
-	color: #00DA00;
+#main_title {
+	font-weight: bolder;
 }
 
-content {
-	flex: 1 0 auto;
+#contacts_table {
+	border: none;
+	border-left: 6px solid #2929ff;
 }
 
-footer {
-	margin:  0;
-	padding: 0
-	flex: 0 0 auto;
+p {
+	border-left: 6px solid #2929ff;
+	padding-left: 15px;
 }
 
-details summary {
-	margin-bottom: 1vmin;
-}
-
-.wrapper {
-	margin: 0 auto;
-	width: 90%;
-}
-
-.center {
-	left: 0;
-	right: 0;
-	text-align: center;
-}
-
-.icon {
-	transition-duration: 100ms;
-	width: 7vmax;
-	height: 7vmax;
-	padding: 5px;
-	margin: 5px;
-	background-color: #FFFFFF;
-	border-radius: 7.5px;
-}
-
-.icon:hover {
-	transition-duration: 100ms;
-	background-color: #DDFFDD;
-}
-
-#links {
-	transition-duration: 100ms;
-	width: 75%;
-	border-radius: 7.5px;
-	margin-bottom: 2vmin;
-	padding: 0.5%;
-	max-height: 7.5%;
-	min-height: 7.5%;
-	height: 7.5%;
-	position: sticky;
-}
-
-#links:hover {
-	background-color: #30303077;
+td {
+	padding-left: 15px;
 }
