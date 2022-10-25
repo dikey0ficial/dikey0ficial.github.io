@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bolder;
 }
 
-#contacts_table {
+#contacts_table, #projects_table {
 	border: none;
 	border-left: 6px solid #2929ff;
 }
