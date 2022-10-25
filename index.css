@@ -1,21 +1,38 @@
 :root {
 	font-family: Noto Sans, sans-serif;
 	font-size: 20px;
-	
-	background-color: #f0f0f0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: #c77b00;
+#body {
+	background-color: #f0f0f0;
 }
 
 #main_title {
 	font-weight: bolder;
+	display: inline;
 }
 
 #contacts_table, #projects_table {
 	border: none;
 	border-left: 6px solid #2929ff;
+}
+
+#theme_btn {
+	font-size: 15px;
+	float: right;
+}
+
+.dark-theme {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+a {
+	color: #42aaff
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #c77b00;
 }
 
 p {
